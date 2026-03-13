@@ -1,0 +1,22 @@
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+     }
+
+     .img1 {
+    width: 180px;
+    height: 180px;
+    object-fit:cover;
+    border-radius: 50%;
+    filter: opacity(90%);
+}
+
+marquee {
+    transition: 5s;
+}
