@@ -53,7 +53,7 @@ a {
 
 h1 {
     text-align: center;
-    padding: 25px 0px;
+    padding: 25px 0px 0px 0;
     color: #12485f;
     text-transform: capitalize;
     font-size: 3.5rem;
@@ -61,12 +61,34 @@ h1 {
     text-shadow: 0 0 5px #1eabda;
 }
 
+.ImgHero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 55px;
+    border-radius: 15px;
+    box-shadow: 3px solid #1eabda;
+    opacity: 80%;
+    border: 5px solid rgba(1, 158, 249, 0.263);
+
+}
+
 h1:hover {
     color: aqua;
 }
 
+.TextSupe {
+    text-wrap: border;
+    margin-bottom: 35px;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
 .Structure {
     display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
     gap: 25px;
     padding: 15px 50px;
     justify-content: center;
@@ -76,7 +98,7 @@ h1:hover {
 h2 {
     text-align: center;
     padding: 10px 0px;
-    color: aqua;
+    color: rgb(14, 102, 102);
     text-transform: capitalize;
     font-size: 2.1rem;
     font-weight: bolder;
@@ -84,6 +106,8 @@ h2 {
 
 .SectionHtml {
     background-color: rgba(42, 181, 209, 0.575);
+    width: 300px;
+    height: 300px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -92,6 +116,8 @@ h2 {
 
 .SectionCss {
     background-color: rgba(42, 181, 209, 0.575);
+    width: 300px;
+    height: 300px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -100,6 +126,8 @@ h2 {
 
 .SectionCss {
     background-color: rgba(42, 181, 209, 0.575);
+    width: 300px;
+    height: 300px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -108,6 +136,8 @@ h2 {
 
 .SectionBoxModel {
     background-color: rgba(42, 181, 209, 0.575);
+    width: 300px;
+    height: 300px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -116,6 +146,8 @@ h2 {
 
 .SectionDisplay {
     background-color: rgba(42, 181, 209, 0.575);
+    width: 300px;
+    height: 300px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -124,6 +156,8 @@ h2 {
 
 .SectionFlexBox {
     background-color: rgba(42, 181, 209, 0.575);
+    width: 300px;
+    height: 300px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -132,6 +166,8 @@ h2 {
 
 .SectionMedidas {
     background-color: rgba(42, 181, 209, 0.575);
+    width: 300px;
+    height: 300px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -140,10 +176,22 @@ h2 {
 
 .SectionSelectores {
     background-color: rgba(42, 181, 209, 0.575);
+    width: 300px;
+    height: 300px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
     border: 2px solid #1eabda67;
+}
+
+.ImgComponents {
+    width: 290px;
+    height: 150px;
+}
+
+section>div:hover {
+    transform: scale(0.92);
+    transition: 4s;
 }
 
 footer {
