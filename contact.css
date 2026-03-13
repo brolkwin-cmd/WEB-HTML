@@ -1,0 +1,39 @@
+.FormContact {
+    display: block;
+    margin: 80px 50px;
+    width: auto;
+    flex-wrap: wrap;
+    background-color: rgba(85, 249, 255, 0.11);
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+
+}
+
+fieldset {
+margin: 25px 0px;
+padding: 20px 10px;
+text-align: left;
+text-transform: uppercase;
+font-weight: bolder;
+background-color: rgba(240, 248, 255, 0.121);
+border: 1px solid rgba(0, 0, 255, 0.086);
+}
+
+.OptionsContact, .OptionsContact2 {
+    display: block;
+margin-left: auto;
+margin-right: auto;
+    width: 600px;
+    height: auto;
+}
+
+legend {
+    font-size: 1.6rem;
+    color: rgba(14, 98, 214, 0.803);
+}
+
+label, input { 
+   display: block; 
+   font-size: 1.3rem;
+}
