@@ -8,6 +8,10 @@ html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 62.5%;
 }
+header{
+    position: flex;
+width: 100%;
+}
 
 body {
     display: flex;
@@ -25,6 +29,7 @@ nav {
     align-items: center;
     gap: 20px;
     border-bottom: #6edafe solid 4px;
+
 }
 
 nav:hover {
@@ -64,12 +69,18 @@ h1 {
 .ImgHero {
     display: block;
     margin-left: auto;
+    max-width: 350px;
     margin-right: auto;
     margin-bottom: 55px;
     border-radius: 15px;
     box-shadow: 3px solid #1eabda;
     opacity: 80%;
     border: 5px solid rgba(1, 158, 249, 0.263);
+
+}
+
+.ImgHero:hover{
+marquee: 10
 
 }
 
