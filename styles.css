@@ -88,7 +88,7 @@ h1:hover {
 .TextSupe {
     text-wrap: border;
     margin-bottom: 35px;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     text-align: center;
     text-transform: capitalize;
     font-style: oblique;
@@ -99,7 +99,8 @@ h1:hover {
     margin-bottom: 50px;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 1  5px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     justify-content: center;
     text-align: justify;
 }
@@ -238,4 +239,73 @@ footer {
     align-content: center;
     text-align: center;
     margin-top: auto;
+}
+
+/* El botón de hamburguesa no se ve en PC */
+.hamburguesa {
+    display: none;
+    cursor: pointer;
+}
+
+/* El checkbox siempre oculto */
+#menu-check {
+    display: none;
+}
+
+/* La lista se ve normal (horizontal) */    
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 18px;
+}
+
+@media (max-width:768px){
+
+body{
+}
+
+h1 {
+    text-align: center;
+    padding: 25px 0px 0px 0;
+    color: #12485f;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-shadow: 0 0 5px #1eabda;
+}
+
+.ImgHero {
+    display: block;
+    margin-left: auto;
+    max-width: 300px;
+    margin-right: auto;
+    margin-bottom: 55px;
+    border-radius: 15px;
+    box-shadow: 3px solid #1eabda;
+    opacity: 80%;
+    border: 5px solid rgba(1, 158, 249, 0.263);
+}
+/* 1. Aparece el botón de hamburguesa */
+    .hamburguesa {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    /* 2. La lista se oculta y se pone vertical */
+    .list {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #9fd5fea2;
+    }
+
+    /* 3. La lógica: si el check está marcado, muestra la lista */
+    #menu-check:checked ~ .list {
+        display: flex;
+    }
 }
