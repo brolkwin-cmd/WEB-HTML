@@ -11,29 +11,50 @@
 }
 
 fieldset {
-margin: 25px 0px;
-padding: 20px 10px;
-text-align: left;
-text-transform: uppercase;
-font-weight: bolder;
-background-color: rgba(240, 248, 255, 0.121);
-border: 1px solid rgba(0, 0, 255, 0.086);
+    margin: 20px auto;
+    padding: 20px 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.121);
+    border:0px solid rgba(0, 0, 255, 0.086);
 }
 
-.OptionsContact, .OptionsContact2 {
+.OptionsContact,
+.OptionsContact2 {
     display: block;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 600px;
     height: auto;
 }
 
 legend {
     font-size: 1.6rem;
+    margin: auto;
     color: rgba(14, 98, 214, 0.803);
 }
 
-label, input { 
-   display: block; 
-   font-size: 1.3rem;
+.label {
+    display: block;
+    margin: auto;
+    padding: 15x;
+    font-size: 1.3rem;
+
+}
+
+input {
+    display: block;
+    padding:3px;
+    font-size: 1.3rem;
+}
+
+.BtmContact {
+    display: block;
+    width: 150px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #1eabda4e;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.412);
 }

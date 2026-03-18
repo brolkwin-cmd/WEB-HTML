@@ -221,7 +221,7 @@ section>div:hover {
 }
 
 
-button {
+.BtmInfo {
     display: block;
     width: 150px;
     margin-top: 50px;   
@@ -241,18 +241,14 @@ footer {
     margin-top: auto;
 }
 
-/* El botón de hamburguesa no se ve en PC */
 .hamburguesa {
     display: none;
-    cursor: pointer;
 }
 
-/* El checkbox siempre oculto */
 #menu-check {
     display: none;
 }
-
-/* La lista se ve normal (horizontal) */    
+   
 .list {
     display: flex;
     flex-direction: row;
@@ -286,14 +282,12 @@ h1 {
     opacity: 80%;
     border: 5px solid rgba(1, 158, 249, 0.263);
 }
-/* 1. Aparece el botón de hamburguesa */
     .hamburguesa {
         display: flex;
         flex-direction: column;
         gap: 5px;
     }
 
-    /* 2. La lista se oculta y se pone vertical */
     .list {
         display: none; 
         flex-direction: column;
@@ -304,7 +298,6 @@ h1 {
         background: #9fd5fea2;
     }
 
-    /* 3. La lógica: si el check está marcado, muestra la lista */
     #menu-check:checked ~ .list {
         display: flex;
     }
