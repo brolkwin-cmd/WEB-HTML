@@ -9,7 +9,8 @@ html {
     font-size: 62.5%;
 }
 header{
-    position: flex;
+    position:fixed;
+    z-index: 100;
 width: 100%;
 }
 
@@ -20,21 +21,22 @@ body {
     min-height: 100vh;
 }
 
+main {
+    flex: 1;
+    margin-top: 70px;
+}
+
+
 nav {
     display: flex;
     padding: 10px 50px;
     max-height: 70px;
-    background-color: rgba(24, 233, 233, 0.118);
+    background-color: #52b9db;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     border-bottom: #6edafe solid 4px;
 
-}
-
-nav:hover {
-    text-shadow: 0 0 3px rgba(4, 51, 51, 0.185);
-    font-weight: 900;
 }
 
 ul {
@@ -69,7 +71,7 @@ h1 {
 .ImgHero {
     display: block;
     margin-left: auto;
-    max-width: 350px;
+    max-width: auto;
     margin-right: auto;
     margin-bottom: 55px;
     border-radius: 15px;
@@ -79,13 +81,8 @@ h1 {
 
 }
 
-.ImgHero:hover{
-marquee: 10
-
-}
-
 h1:hover {
-    color: aqua;
+    color: #52b9db;
 }
 
 .TextSupe {
@@ -94,19 +91,34 @@ h1:hover {
     font-size: 1.8rem;
     text-align: center;
     text-transform: capitalize;
+    font-style: oblique;
 }
 
 .Structure {
     display: flex;
     margin-bottom: 50px;
     flex-wrap: wrap;
-    gap: 25px;
-    padding: 15px 50px;
+    gap: 20px;
+    padding: 1  5px 50px;
     justify-content: center;
     text-align: justify;
 }
 
+span{
+font-size: 1.6rem;
+font-family: sans-serif;
+font-weight: bolder;
+font-style: oblique;
+color: #12485f;
+}
 
+p{
+    margin-top: 15px;
+font-size: 1.5rem;
+font-family: sans-serif;
+font-weight: 400;
+
+}
 
 h2 {
     text-align: center;
@@ -119,8 +131,8 @@ h2 {
 
 .SectionHtml {
     background-color: rgba(42, 181, 209, 0.575);
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -129,8 +141,8 @@ h2 {
 
 .SectionCss {
     background-color: rgba(42, 181, 209, 0.575);
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -139,8 +151,8 @@ h2 {
 
 .SectionCss {
     background-color: rgba(42, 181, 209, 0.575);
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -149,8 +161,8 @@ h2 {
 
 .SectionBoxModel {
     background-color: rgba(42, 181, 209, 0.575);
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -159,8 +171,8 @@ h2 {
 
 .SectionDisplay {
     background-color: rgba(42, 181, 209, 0.575);
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -169,8 +181,8 @@ h2 {
 
 .SectionFlexBox {
     background-color: rgba(42, 181, 209, 0.575);
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -179,8 +191,8 @@ h2 {
 
 .SectionMedidas {
     background-color: rgba(42, 181, 209, 0.575);
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
@@ -189,8 +201,8 @@ h2 {
 
 .SectionSelectores {
     background-color: rgba(42, 181, 209, 0.575);
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     margin: 5px auto;
     padding: 20px 20px;
     border-radius: 15px;
