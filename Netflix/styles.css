@@ -31,9 +31,10 @@ body {
     justify-content: center;
 }
 
-h1{
+h1 {
     color: #ffffff;
     font-size: 3.2rem;
+    font-weight: bolder;
 }
 
 
@@ -42,7 +43,7 @@ h1{
     font-size: 1.8rem;
 }
 
-.BtnContinue{
+.BtnContinue {
     width: 440px;
     height: 48px;
     font-size: 1.8rem;
@@ -53,12 +54,12 @@ h1{
     font-weight: bolder;
 }
 
-.BtnContinue:hover{
+.BtnContinue:hover {
     background-color: #e50914df;
 }
 
-.BoxEmail{
-width: 440px;
+.BoxEmail {
+    width: 440px;
     height: 56px;
     padding: 12px 16px;
     border-radius: 5px;
@@ -69,29 +70,31 @@ width: 440px;
     margin-bottom: 8px;
 }
 
-.IndexForm{
+.IndexForm {
     width: 440px;
     height: 141px;
     margin: 24px 0px;
 }
 
-a{
+a {
     color: #b3b3b3;
 }
 
 .TituloContainer {
-width: 440px;
-height: 113px;
-margin-top: 0px;
+    width: 440px;
+    height: 113px;
+    margin-top: 0px;
 }
 
-.IndexContainer{
+.IndexContainer {
     display: block;
-width: 480px;
-height: 677px;
-padding: 40px;
+    width: 480px;
+    height: 677px;
+    padding: 40px;
 
 }
+
+
 
 .Footercontainer {
     display: flex;
@@ -134,14 +137,15 @@ padding: 40px;
     font-weight: 500;
 }
 
-.container1Footer , .container2Footer{
+.container1Footer,
+.container2Footer {
     display: flex;
     flex-wrap: wrap;
 }
 
 
 .FooterQuestion {
-font-size: 1.6rem;
+    font-size: 1.6rem;
     font-weight: bolder;
     text-align: left;
     margin-left: 0;
@@ -151,9 +155,25 @@ font-size: 1.6rem;
     margin-bottom: -25px;
 }
 
-.TextInformative{
+.TextInformative {
+    margin-top: 20px;
     width: 440px;
     height: 32px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #b3b3b3;
+}
+
+.BtnHelp {
+    background-color: #16161600;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.4rem;
+
+}
+
+.MoreInfo {
+    color: #ffffff;
 }
 
 .ImgLogo {
@@ -170,5 +190,36 @@ footer {
     border-top: solid 1px rgba(255, 255, 255, 0.212);
     align-items: center;
     margin-top: auto;
+
+}
+
+@media (max-width:768px) {
+
+    header {
+        height: auto;
+        padding: 15px 20px;
+    }
+
+    .ImgLogo {
+        width: 100px;
+        height: auto;
+    }
+
+
+    .IndexContainer {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .TituloContainer {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.4rem;
 
 }
