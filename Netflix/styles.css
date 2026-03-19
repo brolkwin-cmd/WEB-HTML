@@ -45,16 +45,34 @@ h1{
 .BtnContinue{
     width: 440px;
     height: 48px;
+    font-size: 1.8rem;
     border-radius: 5px;
-    background-color: red;
+    border: 0;
+    background-color: #e50914;
     color: white;
     font-weight: bolder;
+}
+
+.BtnContinue:hover{
+    background-color: #e50914df;
+}
+
+.BoxEmail{
+width: 440px;
+    height: 56px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    background-color: rgba(22, 22, 22, 0.7);
+    border: 1px solid #e50914;
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 8px;
 }
 
 .IndexForm{
     width: 440px;
     height: 141px;
-    margin: 24px 0px 0px;
+    margin: 24px 0px;
 }
 
 a{
@@ -131,6 +149,11 @@ font-size: 1.6rem;
     width: 100%;
     height: 32px;
     margin-bottom: -25px;
+}
+
+.TextInformative{
+    width: 440px;
+    height: 32px;
 }
 
 .ImgLogo {
