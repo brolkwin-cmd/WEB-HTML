@@ -10,14 +10,22 @@ html {
 }
 
 header {
-    width: auto;
+    width: 100%;
     background-color: rgba(255, 249, 249, 0.022);
-    height: 92px;
-    padding: 24px 32px;
+    height: auto;
+    min-height: 92px;
+    padding: 2.4rem 3.2rem;
     border-bottom: solid 1px rgba(255, 255, 255, 0.212);
     z-index: 100;
-    width: 100%;
+}
 
+.NavContainer {
+    width: 100%;
+    max-width: 1270px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
 }
 
 body {
@@ -37,14 +45,13 @@ h1 {
     font-weight: bolder;
 }
 
-
 .subtitlo {
     color: #b3b3b3;
     font-size: 1.8rem;
 }
 
 .BtnContinue {
-    width: 440px;
+    width: 100%;
     height: 48px;
     font-size: 1.8rem;
     border-radius: 5px;
@@ -59,7 +66,8 @@ h1 {
 }
 
 .BoxEmail {
-    width: 440px;
+    width: 100%;
+    max-width: 440px;
     height: 56px;
     padding: 12px 16px;
     border-radius: 5px;
@@ -71,8 +79,9 @@ h1 {
 }
 
 .IndexForm {
-    width: 440px;
-    height: 141px;
+    width: 100%;
+    max-width: 440px;
+    height: auto;
     margin: 24px 0px;
 }
 
@@ -81,41 +90,39 @@ a {
 }
 
 .TituloContainer {
-    width: 440px;
-    height: 113px;
+    width: 100%;
+    max-width: 440px;
+    height: auto;
     margin-top: 0px;
 }
 
 .IndexContainer {
     display: block;
-    width: 480px;
-    height: 677px;
-    padding: 40px;
-
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    padding: 40px 20px;
+    margin-bottom: 200px;
 }
-
-
 
 .Footercontainer {
     display: flex;
     flex-wrap: wrap;
-    width: 1190px;
-    height: 164px;
-    margin-top: 72px;
-    margin-bottom: 119px;
-    margin-left: auto;
-    margin-right: auto;
+    gap: 15px;
+    width: 100%;
+    max-width: 1190px;
+    height: auto;
+    margin: 72px auto;
     padding: 0px 48px;
     color: #ffffff;
-
 }
 
 .FooterOptions {
     font-style: none;
-    width: 264.5px;
-    height: 18px;
+    width: 264px;
+    height: auto;
     color: #b3b3b3;
-    margin: -5px 0px 14px 0px;
+    margin: 10px 0px;
 }
 
 .fondo {
@@ -129,10 +136,9 @@ a {
 }
 
 .Footercontainer2 {
-    width: 1094px;
-    height: 100px;
-    align-items: center;
-    align-content: center;
+    width: 100%;
+    max-width: 1094px;
+    height: auto;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -143,22 +149,20 @@ a {
     flex-wrap: wrap;
 }
 
-
 .FooterQuestion {
     font-size: 1.6rem;
     font-weight: bolder;
     text-align: left;
-    margin-left: 0;
-    margin-right: auto;
     width: 100%;
-    height: 32px;
-    margin-bottom: -25px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .TextInformative {
     margin-top: 20px;
-    width: 440px;
-    height: 32px;
+    width: 100%;
+    max-width: 440px;
+    height: auto;
     font-size: 1.3rem;
     font-weight: 500;
     color: #b3b3b3;
@@ -169,7 +173,6 @@ a {
     color: #ffffff;
     font-weight: bolder;
     font-size: 1.4rem;
-
 }
 
 .MoreInfo {
@@ -178,40 +181,44 @@ a {
 
 .ImgLogo {
     width: 140px;
-    height: 40px;
-
+    height: auto;
 }
 
 footer {
     width: 100%;
-    height: 310px;
+    height: auto;
+    min-height: 310px;
     background-color: #161616;
-    padding: 0;
+    padding: 40px 0;
     border-top: solid 1px rgba(255, 255, 255, 0.212);
-    align-items: center;
     margin-top: auto;
-
 }
 
 @media (max-width:768px) {
-
     header {
         height: auto;
-        padding: 15px 20px;
+        padding: 15px 0px;
     }
 
-    .ImgLogo {
-        width: 100px;
+    .NavContainer {
+        padding-left: 20px;
         height: auto;
-    }
-
-    .TituloContainer {
-        width: 100%;
-        height: auto;
-        text-align: center;
     }
 
     h1 {
         font-size: 2.4rem;
+    }
 
+    .BoxEmail {
+        height: 50px;
+    }
+
+    .Footercontainer {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .FooterOptions {
+        width: 50%;
+    }
 }
